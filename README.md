@@ -58,9 +58,6 @@ pm2 startup
 pm2 save
 ```
 
-```
-nohup ./multiple-node > output.log 2>&1 &
-```
 
 8.查看进程
 
@@ -71,7 +68,7 @@ ps -ef | grep multiple-node
 9.绑定钱包
 
 ```
-./multiple-cli bind --bandwidth-download 100 --identifier --pin  --storage 200 --bandwidth-upload 100
+./multiple-cli bind --bandwidth-download 100 --identifier [NUMBER] --pin [PIN] --storage 200 --bandwidth-upload 100
 ```
 
 **备注**：
